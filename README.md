@@ -6,3 +6,5 @@ Es mi primera App Móvil que voy a intentar arrancar desde cero aplicando todos 
 - Ingrese el nombre de la APP: What is your app named? my-app (powershell).
 - Al ejecutar: create-expo-appun administrador de paquetes de Node, se inicializa y configura un nuevo proyecto Expo utilizando la plantilla predeterminada.
 
+
+Nota: En mi computadora donde la elaboré me solicitaba este comando npm install <My_App_Contactos --registry
