@@ -5,4 +5,6 @@ Es mi primera App Móvil que voy a intentar arrancar desde cero aplicando todos 
 - ejecute el siguiente comando: npx create-expo-app@latest (powershell).
 - Ingrese el nombre de la APP: What is your app named? my-app (powershell).
 - Al ejecutar: create-expo-appun administrador de paquetes de Node, se inicializa y configura un nuevo proyecto Expo utilizando la plantilla predeterminada.
+NOTA: En mi computadora personal ejetué el siguiente comando para poder crear mi App "npm install <My_App_Contactos> --registry"
+
 
