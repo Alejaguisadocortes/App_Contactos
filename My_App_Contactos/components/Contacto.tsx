@@ -12,16 +12,16 @@ export default function Contacto({ nombre, telefono }: { nombre: string; telefon
 const styles = StyleSheet.create({
   container: {
     padding: 12,
-    backgroundColor: '#e0f7fa',
-    borderRadius: 10,
-    marginBottom: 10,
+    backgroundColor: '#258996ff',
+    borderRadius: 11,
+    marginBottom: 9,
   },
   nombre: {
     fontSize: 18,
     fontWeight: 'bold',
   },
   telefono: {
-    fontSize: 16,
-    color: '#555',
+    fontSize: 17,
+    color: '#d74343ff',
   },
 });

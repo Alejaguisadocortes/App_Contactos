@@ -23,7 +23,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', (req, res) => {
     const titulo = "Mis Contactos App"; 
-       res.render('index', { titulo: titulo }); 
+       res.render('index', { titulo: MisContactosApp });
 });
 
 import React from 'react';

@@ -4,9 +4,13 @@ import { useNavigation } from '@react-navigation/native';
 
 export default function ContactListScreen() {
   const [contacts, setContacts] = useState([
-    { nombre: 'Ana', telefono: '123456789', favorite: false },
-    { nombre: 'Luis', telefono: '987654321', favorite: false },
-  ]);
+  { id: 1, name: "Santiago Parra", phone: "3004223154", favorite: false },
+  { id: 2, name: "Juan Emilio Pasos", phone: "3207776834", favorite: true },
+  { id: 3, name: "Marcela Juarez", phone: "3154329065", favorite: false },
+  { id: 4, name: "Pedro Pablo Jaramillo", phone: "3014395438", favorite: true },
+  { id: 5, name: "Heladio Heredia", phone: "3234782314", favorite: true },
+  { id: 6, name: "Pilicra Potes", phone: "3508743322", favorite: true },
+
   const [filterMode, setFilterMode] = useState('all'); // 'all' or 'favorites'
   const navigation = useNavigation();
 
