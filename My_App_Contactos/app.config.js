@@ -1,9 +1,10 @@
 <configuration>
-  <appSettings>
-    <add key="NombreUsuario" value="UsuarioPredeterminado" />
+ <appSettings>
+    <add key="NombreContacto" value="NombreContacto" />
+    <add key="EmailContacto" value="Email" />
+    <add key="TelefonoContacto" value="Telefono" />
     <add key="MaxIntentos" value="3" />
-  </appSettings>
-  <connectionStrings>
-    <add name="MiConexion" connectionString="Server=localhost;Database=MiBaseDeDatos;User Id=usuario;Password=contraseña;" providerName="System.Data.SqlClient" />
-  </connectionStrings>
+ </appSettings>
+ <connectionStrings>
+ </connectionStrings>
 </configuration>
