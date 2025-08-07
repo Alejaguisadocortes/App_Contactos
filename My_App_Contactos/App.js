@@ -1,3 +1,12 @@
+import { Text, View } from 'react-native';
+
+// export default function My_App_Contactos() {
+//   return (
+//     <View>
+//       <Text>Mi Aplicación de Contactos</Text>
+//     </View>
+//   );
+// }
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -50,3 +59,48 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
+{contacts.length === 0 ? (
+  <Text>No hay contactos</Text>
+) : (
+  contacts.map((c, i) => (
+    <Text key={i}>{c.name} - {c.phone}</Text>
+  ))
+)}
+
+for (let i = 0; i < contacts.length; i++) {
+  console.log(contacts[i].name);
+}
+
+contacts.map((c) => <Text>{c.name}</Text>);
+
+contacts.map((c, i) => (
+  <Text key={i}>
+    {c.favorite ? '⭐' : '➖'} {c.name}
+  </Text>
+));
+
+<Text style={{ fontWeight: c.favorite ? 'bold' : 'normal' }}>
+  {c.name}
+</Text>
+const [filterMode, setFilterMode] = useState('all');
+<View style={{ flexDirection: 'row' }}>
+  <Button
+    title="Todos"
+    onPress={() => setFilterMode('all')}
+    color={filterMode === 'all' ? 'blue' : 'gray'}
+  />
+  <Button
+    title="Favoritos"
+    onPress={() => setFilterMode('favorites')}
+    color={filterMode === 'favorites' ? 'blue' : 'gray'}
+  />
+</View>
+const filteredContacts = filterMode === 'favorites'
+  ? contacts.filter(c => c.favorite)
+  : contacts;
+
+filteredContacts.map((c, i) => (
+  <Text key={i}>{c.name}</Text>
+));
+
