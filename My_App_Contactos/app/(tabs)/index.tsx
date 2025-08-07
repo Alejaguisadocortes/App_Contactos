@@ -1,5 +1,4 @@
-import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
+import { Image, Platform, StyleSheet } from 'react-native';
 
 // import { HelloWave } from '@/components/HelloWave'; // Removed because the module does not exist
 import { ScrollView } from 'react-native';
@@ -89,3 +88,4 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
 });
+

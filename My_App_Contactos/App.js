@@ -1,5 +1,12 @@
 import { Text, View } from 'react-native';
 
+import StackNavigator from './src/navigation/StackNavigator';
+
+function MainApp() {
+  return <StackNavigator />;
+}
+
+
 // export default function My_App_Contactos() {
 //   return (
 //     <View>
