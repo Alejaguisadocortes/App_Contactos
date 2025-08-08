@@ -1,10 +1,29 @@
-<configuration>
- <appSettings>
-    <add key="NombreContacto" value="NombreContacto" />
-    <add key="EmailContacto" value="Email" />
-    <add key="TelefonoContacto" value="Telefono" />
-    <add key="MaxIntentos" value="3" />
- </appSettings>
- <connectionStrings>
- </connectionStrings>
-</configuration>
+export default {
+  name: "my_app_contactos",
+  slug: "my_app_contactos",
+  version: "1.0.0",
+  orientation: "portrait",
+  icon: "./assets/icon.png",
+  userInterfaceStyle: "light",
+  splash: {
+    image: "./assets/splash.png",
+    resizeMode: "contain",
+    backgroundColor: "#ffffff"
+  },
+  updates: {
+    fallbackToCacheTimeout: 0
+  },
+  assetBundlePatterns: ["**/*"],
+  ios: {
+    supportsTablet: true
+  },
+  android: {
+    adaptiveIcon: {
+      foregroundImage: "./assets/adaptive-icon.png",
+      backgroundColor: "#FFFFFF"
+    }
+  },
+  web: {
+    favicon: "./assets/favicon.png"
+  }
+};
