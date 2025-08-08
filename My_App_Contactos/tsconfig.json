@@ -10,10 +10,3 @@
     "types": ["expo-router"]
   }
 }
-{
-  "extends": "./tsconfig.json",
-  "compilerOptions": {
-    "noEmit": true
-  },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
-}
